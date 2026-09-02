@@ -37,7 +37,7 @@ spec:
     - name: npminstall
       workspaces:
        - name: source
-        workspace: pipeline-workspace
+         workspace: pipeline-workspace
       taskRef:
          name: npm
       runAfter:
